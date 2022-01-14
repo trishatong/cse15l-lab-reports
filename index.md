@@ -19,10 +19,9 @@
 
 ---
 
-## Second Page
+## Lab Reports
 
-click [here](https://trishatong.github.io/cse15l-lab-reports/secondfile.html) to go to the second page
-
+[week 2 lab report](https://trishatong.github.io/cse15l-lab-reports/lab-report-1-week-2)
 ---
 
 `code`
