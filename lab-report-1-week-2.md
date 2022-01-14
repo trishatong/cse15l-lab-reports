@@ -1,3 +1,5 @@
+# Week 2 Lab Report
+
 **1. Installing VScode**
 
 Go to the [Visual Studio Code](https://code.visualstudio.com/) website. Follow the instructions (choose Windows or Mac) and download VScode.
