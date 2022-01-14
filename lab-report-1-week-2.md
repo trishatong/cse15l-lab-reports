@@ -51,4 +51,5 @@ There are ways to make remote running go smoothly.
 * Use a semi-colon in between commands in order to run multiple commands in the same line.
 
 Using the ls command on the remote server.
+
 ![remote](cs83.PNG)
