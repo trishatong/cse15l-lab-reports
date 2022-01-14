@@ -41,9 +41,17 @@ Run the file using javac and java.
 
 ### **5. Setting an SSH Key**
 
-Setting up a public and private key files can take the place of your password when using ssh, which saves time. To do this, use the command `ssh-keygen`. If you're on Windows, follow these [instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). Set a password.
+Setting up a public and private key files can take the place of your password when using ssh, which saves time. To do this, use the command `ssh-keygen`. If you're on Windows, follow these [instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). Set a key.
 
 ![ssh-keygen](cs80.PNG)
+
+Then, use the command `scp /Users/__/.ssh/id_rsa.pub cs15lwi22__@ieng6.ucsd.edu:~/.ssh/authorized_keys` with your own information to copy your public key to your user account's directory.
+
+![powershell](cs86.PNG)
+
+You can now ssh from client to server without entering your password.
+
+![ssh](cs87.PNG)
 
 ### **6. Optimizing Remote Running**
 
