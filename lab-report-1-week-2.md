@@ -1,19 +1,19 @@
 # Week 2 Lab Report
 
-**1. Installing VScode**
+### **1. Installing VScode**
 
 Go to the [Visual Studio Code](https://code.visualstudio.com/) website. Follow the instructions (choose Windows or Mac) and download VScode.
 
 ![vscode](vscode.PNG)
 
-**2. Remotely Connecting**
+### **2. Remotely Connecting**
 
 If you have Windows, [Install SSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Then, look up your CSE15L course account [here](https://sdacs.ucsd.edu/~icc/index.php).
 Open a new terminal in VScode. Type in your username and add `@ieng6.ucsd.edu` to the end. If a message pops up asking if you want to continue connecting, type yes. Your terminal should now look like this:
 
 ![remotely connecting](cs74.PNG)
 
-**3. Trying Some Commands**
+### **3. Trying Some Commands**
 
 Try some commands: cd, pwd, mkdir, and cp. Here's an example of the command ls:
 
@@ -21,7 +21,7 @@ Try some commands: cd, pwd, mkdir, and cp. Here's an example of the command ls:
 
 This command lists the files/directories in the directory.
 
-**4. Moving Files with scp**
+### **4. Moving Files with scp**
 
 The command scp allows you to move files from your computer to a remote computer. To try this, create a new file on your computer.
 
@@ -39,12 +39,14 @@ Run the file using javac and java.
 
 ![moved file](cs76.PNG)
 
-**5. Setting an SSH Key**
+### **5. Setting an SSH Key**
+
 Setting up a public and private key files can take the place of your password when using ssh, which saves time. To do this, use the command `ssh-keygen`. If you're on Windows, follow these [instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). Set a password.
 
 ![ssh-keygen](cs80.PNG)
 
-**6. Optimizing Remote Running**
+### **6. Optimizing Remote Running**
+
 There are ways to make remote running go smoothly.
 * Use the up arrow to use the previous command
 * Type a command in quotations after an ssh command in order to run it on the remote server.
