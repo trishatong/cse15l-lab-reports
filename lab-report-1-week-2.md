@@ -56,7 +56,7 @@ You can now ssh from client to server without entering your password.
 ### **6. Optimizing Remote Running**
 
 There are ways to make remote running go smoothly.
-* Use the up arrow to use the previous command
+* Use the up arrow to use the previous command (1 keystroke).
 * Type a command in quotations after an ssh command in order to run it on the remote server.
 * Use a semi-colon in between commands in order to run multiple commands in the same line.
 
