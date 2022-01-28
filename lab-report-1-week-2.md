@@ -60,6 +60,6 @@ There are ways to make remote running go smoothly.
 * Type a command in quotations after an ssh command in order to run it on the remote server.
 * Use a semi-colon in between commands in order to run multiple commands in the same line.
 
-Using the ls command on the remote server (36 keystrokes).
+Using the ls command on the remote server (36 keystrokes). This is significantly faster than going through the process explained in step 5.
 
 ![remote](cs83.PNG)
