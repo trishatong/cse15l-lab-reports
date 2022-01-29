@@ -4,4 +4,6 @@
 
 ## Lab Reports
 
-[week 2 lab report](https://trishatong.github.io/cse15l-lab-reports/lab-report-1-week-2)
+[week 2 lab report 1](https://trishatong.github.io/cse15l-lab-reports/lab-report-1-week-2)
+
+[week 4 lab report 2](https://trishatong.github.io/cse15l-lab-reports/lab-report-2-week-4)
