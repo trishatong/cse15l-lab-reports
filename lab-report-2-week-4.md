@@ -3,13 +3,13 @@
 ### 3 Code Changes
 
 
-![image](https://user-images.githubusercontent.com/97629354/151638959-ed73b81d-e1b7-46b0-b534-a0c8d339bc45.png)
+![image](cs287.PNG)
 
 [failure-inducing input 1](https://github.com/trishatong/markdown-parse/blob/3d74f0ba1e903a9f11ea5b636a6a7569fb643100/test-file8.md)
 
-![error](cs202.PNG)
+![error](cs286.PNG)
 
-Our code did not account for an updated index. This resulted in an infinite while loop, causing the program to crash.
+Our code did not account for an open bracket whose index was not at the beginning. This caused the while loop to be infinite.
 
 ---
 
@@ -19,7 +19,7 @@ Our code did not account for an updated index. This resulted in an infinite whil
 
 ![error](cs195.PNG)
 
-The index of the open bracket was greater than 0. This led to an infinite while loop, which resulted in a symptom in the form of an error.
+Our code did not account for multiple pairs of brackets and parenthesis and unpaired brackets and parenthesis. Therefore, the open bracket at the end of this file caused an error in the form of an infinite while loop.
 
 ---
 
