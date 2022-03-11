@@ -11,3 +11,5 @@
 [week 6 lab report 3](https://trishatong.github.io/cse15l-lab-reports/lab-report-3-week-6)
 
 [week 8 lab report 4](https://trishatong.github.io/cse15l-lab-reports/lab-report-4-week-8)
+
+[week 10 lab report 5](https://trishatong.github.io/cse15l-lab-reports/lab-report-5-week-10)
